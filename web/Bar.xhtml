@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        
+        <h:form  style="text-align:center">
+            <h2>RESERVACIÒN SPA</h2>
+            <h:panelGrid columns="3" style="center">
+                <h:outputLabel for="txtNobre" value="Nombre:"/>
+                <h:inputText id="txtNombre" label="Nombre" required="true" />
+                <h:message for="txtNombre"/>
+                
+                <h:outputLabel for="txtTelefono" value="Telefono:"/>
+                <h:inputText id="txtTelefono" label="Telefono" required="true" />
+                <h:message for="txtçTelefono"/>
+                
+                 <h:outputLabel for="txtEmail" value="Email:"/>
+                <h:inputText id="txtEmail" label="Email" required="true" />
+                <h:message for="txtEmail"/>
+                
+                  <h:outputLabel for="Faciales" value="Faciales:" />
+                <select Faciales="Faciales">
+                <option value="Faciales">Faciales</option>
+                <option value="LIFTING MULTISENSORIAL">LIFTING MULTISENSORIAL</option>
+                <option value="FACIAL MASCULINO">FACIAL MASCULINO</option>
+                <option value="CITRUS VITA-ESSENCE">CITRUS VITA-ESSENCE</option>
+                <option value="MAGNETIC RITUAL">MAGNETIC RITUAL</option>
+                <option value="LA CURA">LA CURA</option>
+                <option value="DIAMOND SUBLIME">DIAMOND SUBLIME</option>
+                <option value="BAMBOO SCRUB">BAMBOO SCRUB</option>
+                <option value="BAÑO CÍTRICO">BAÑO CÍTRICO</option>
+                <option value="CITRUS NUTRI-CURE">CITRUS NUTRI-CURE</option>
+                <option value="ROYAL CITRUS EXPERIENCE">ROYAL CITRUS EXPERIENCEO</option>
+                </select>
+                
+                  
+                  
+                <h:outputLabel for="Masajes" value="Masajes:" />
+                <select Masajes="Masajes">
+                <option value="Masajes">Masajes</option>
+                <option value="MASAJE DETOX">MASAJE DETOX</option>
+                <option value="MASAJE AROMA ">MASAJE AROMA </option>
+                <option value="MASAJE LOMI-JUMA">MASAJE LOMI-JUMA</option>
+                <option value="RITUAL DE LAS 4 MANOS">RITUAL DE LAS 4 MANOS</option>
+                <option value="MASAJE RELAJANTE">MASAJE RELAJANTE</option>
+                </select>
+                 
+                
+                
+                <h:commandButton value="Reservar" />
+                
+         </h:panelGrid>
+       </h:form>
+    </h:body>
+</html>
+
